@@ -20,6 +20,6 @@ public class BaseAcitivity extends AppCompatActivity {
     @Override
     public void finish() {
         super.finish();
-//        overridePendingTransition(R.anim.hold,R.anim.slide_right_out);
+        overridePendingTransition(R.anim.hold,R.anim.slide_right_out);
     }
 }
